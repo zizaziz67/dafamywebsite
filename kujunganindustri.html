@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Galeri Kunjungan Industri - SMKN 2 TENGGALEK</title>
+<style>
+    * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background: linear-gradient(to right, #4b6cb7, #182848);
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  padding: 2rem;
+}
+
+.photo-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.photo-card:hover {
+  transform: scale(1.03);
+}
+
+.photo-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: opacity 0.3s ease;
+}
+
+.desc {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  padding: 1rem;
+  font-size: 0.95rem;
+  transform: translateY(100%);
+  transition: transform 0.4s ease;
+}
+
+.photo-card:hover .desc {
+  transform: translateY(0);
+}
+
+footer {
+  text-align: center;
+  padding: 1.5rem;
+  background-color: #222;
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <h1>Galeri Kunjungan Industri</h1>
+    <p>SMKN 2 TENGGALEK ke Yogyakarta - Pembelajaran, Petualangan & Pengalaman</p>
+  </header>
+
+  <section class="gallery">
+    <div class="photo-card">
+      <img src="Gambar WhatsApp 2025-05-21 pukul 22.24.28_8b15e70c.jpg" alt="RUMAH" />
+      <div class="desc">kemas kemas barang mau berangkat ke SMKN 2 TRENGGALEK.</div>
+    </div>
+    <div class="photo-card">
+      <img src="Gambar WhatsApp 2025-05-21 pukul 22.24.28_9e9d22c0.jpg" alt="SKMN 2 TRENGGALEK" />
+      <div class="desc">Foto foto dulu sebelum berangkat ke jogja.</div>
+    </div>
+    <div class="photo-card">
+      <img src="Gambar WhatsApp 2025-05-21 pukul 22.24.31_38482ead.jpg" alt="PAWON SIMBOK" />
+      <div class="desc">Mampir ke PAWON SIMBOK untuk mandi dan makan pagi.</div>
+    </div>
+    <div class="photo-card">
+      <img src="Gambar WhatsApp 2025-05-21 pukul 22.24.29_df067e90.jpg" alt="RUMAH OBLONG" />
+      <div class="desc">Kunjungan yang pertama ke rumah oblong.</div>
+    </div> <section class="gallery">
+  <div class="photo-card">
+    <img src="foto1.jpg" alt="UGM Visit" />
+    <div class="desc">Kunjungan edukatif ke Universitas Gadjah Mada.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto2.jpg" alt="Perusahaan IT" />
+    <div class="desc">Mengenal dunia kerja di perusahaan teknologi Jogja.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto3.jpg" alt="Prambanan Temple" />
+    <div class="desc">Wisata sejarah ke Candi Prambanan yang megah.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto4.jpg" alt="Malioboro Street" />
+    <div class="desc">Menyusuri budaya di Malioboro yang ikonik.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto5.jpg" alt="Foto Bersama" />
+    <div class="desc">Foto bersama seluruh rombongan sebagai kenangan.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto6.jpg" alt="Workshop IT" />
+    <div class="desc">Mengikuti workshop pemrograman dan networking.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto7.jpg" alt="Makan Malam" />
+    <div class="desc">Menikmati kebersamaan saat makan malam bersama.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto8.jpg" alt="Taman Pintar" />
+    <div class="desc">Eksplorasi interaktif di Taman Pintar Yogyakarta.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto9.jpg" alt="Keraton Yogyakarta" />
+    <div class="desc">Mengenal budaya Jawa di Keraton Ngayogyakarta Hadiningrat.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto10.jpg" alt="Culinary Tour" />
+    <div class="desc">Menikmati kuliner khas Jogja seperti gudeg dan bakpia.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto11.jpg" alt="Fun Games" />
+    <div class="desc">Serunya kegiatan team building dan fun games antar kelas.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto12.jpg" alt="Sunset Jogja" />
+    <div class="desc">Menikmati senja di Bukit Bintang bersama teman-teman.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto13.jpg" alt="Studio Animasi" />
+    <div class="desc">Belajar animasi dan desain di studio multimedia lokal.</div>
+  </div>
+  <div class="photo-card">
+    <img src="foto14.jpg" alt="Perjalanan Pulang" />
+    <div class="desc">Momen di dalam bus saat perjalanan pulang penuh cerita.</div>
+  </div>
+</section>
+
+    <!-- Tambahkan lebih banyak foto sesuai kebutuhan -->
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SMKN 2 TENGGALEK. Semua hak dilindungi.</p>
+  </footer>
+</body>
+</html>
